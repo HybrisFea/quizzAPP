@@ -35,7 +35,7 @@ const FileUpload = ({ onFileUpload }) => {
     <div className='file-upload-container'>
       <form onSubmit={handleSubmit}>
         <input type='file' onChange={handleFileChange} accept='.json' />
-        <button type='submit'>Upload</button>
+        <button type='submit'>Upload file</button>
         {error && <p style={{ color: "red" }}>{error}</p>}
       </form>
     </div>
